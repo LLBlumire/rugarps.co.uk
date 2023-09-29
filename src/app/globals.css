@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: garps;
+        src: url(/garps.ttf);
+    }
+}
+
 @layer utilities {
     .font-inter {
         font-family: var(--font-inter);
@@ -9,5 +16,10 @@
 
     .font-atkinson {
         font-family: var(--font-atkinson);
+    }
+
+    .font-garps {
+        font-family: garps;
+        color: white;
     }
 }
