@@ -35,7 +35,7 @@ export default function RootLayout({
           <Link href="/">
             <h1 className="text-8xl text-center font-garps">GARPS</h1>
           </Link>
-          <nav>
+          {/* <nav>
             <ul className="flex flex-wrap gap-3 justify-center">
               <li>
                 <Navlink to="/about" title="About" />
@@ -56,7 +56,7 @@ export default function RootLayout({
                 <Navlink to="/ttrpgs" title="TTRPGs" />
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </header>
         <main className="flex-grow p-4 max-w-screen-lg w-full">{children}</main>
         <footer className="bg-[#E02217] w-full p-2">
