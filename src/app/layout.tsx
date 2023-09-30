@@ -32,9 +32,9 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${atkinson.variable}`}>
       <body className="flex flex-col min-h-[100dvh] items-center">
         <header className="bg-[#E02217] w-full p-2 pb-4">
-          <Link href="/">
-            <h1 className="text-8xl text-center font-garps">GARPS</h1>
-          </Link>
+          {/* <Link href="/"> */}
+          <h1 className="text-8xl text-center font-garps">GARPS</h1>
+          {/* </Link> */}
           {/* <nav>
             <ul className="flex flex-wrap gap-3 justify-center">
               <li>
